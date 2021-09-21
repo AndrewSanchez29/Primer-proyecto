@@ -1,0 +1,112 @@
+.barraColor{
+    background-color:rgb(54, 144, 185);
+}
+
+.box{
+    border: 4px solid black;
+}
+
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.logo{
+    width: 10%;
+    height:10% ;
+
+}
+
+.line{
+    display:inline-block;
+}
+
+.subirderecha{
+    float: right;
+}
+
+
+.subirizquierda{
+    float: left;
+}
+
+.seccioncolor{
+    background-color: darkgreen;
+}
+
+.heroimagen{
+    background-image: url("../img/rotonda.jpg"); 
+    height: 400px;
+    background-size: cover;
+}
+
+.hoja {
+    width: 42%;
+    height: 300px;
+    background-color: lightblue;
+    text-align: center;
+    display:inline-block;
+    margin:2%;
+}
+
+.imagenCentro{
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+.imagenCentro:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); }
+
+
+.footerColor{
+    background-color: turquoise;
+
+}
+.mapaCentro{
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+}
+
+.tamanoPies{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+} 
+
+.footerLogo{
+    width:30px;
+    height: 30px;
+}
+
+.aboutCentro{
+    margin: 10px 250px;
+}
+
+
+
+
+/* body{
+    background-color: cornflowerblue;
+    margin: 0%;
+    padding: 0%;}
+
+nav{
+
+    background-color: darkgreen;
+    height: 50px;
+    width: 100%;
+    position: fixed;}
+
+ul{
+    list-style-type: none;
+float:left;
+}
+
+.boxes{
+    border-style: solid;
+} */
